@@ -15,8 +15,8 @@ def generateFilterContainment():
     x = chooseSymbol(x)
     y = chooseSymbol(y)
 
-    q_1 = 'a ' + str(x) + ' ' + str(b)
-    q_2 = 'a ' + str(y) + ' ' + str(c)
+    q_1 = 'x ' + str(x) + ' ' + str(b)
+    q_2 = 'x ' + str(y) + ' ' + str(c)
 
     return [q_1, q_2]
 
