@@ -6,8 +6,8 @@ import random as rn
 # Todo: add different column generator
 def generateFilterContainment():
     # numerical filter predicates
-    b = rn.random()
-    c = rn.random()
+    b = int(rn.random()*100)
+    c = int(rn.random()*100)
     # mathematical symbols
     x = rn.random()
     y = rn.random()
